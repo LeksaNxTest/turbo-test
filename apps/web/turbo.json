@@ -3,7 +3,8 @@
   "extends": ["//"],
   "pipeline": {
     "build": {
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": [".next/**", "!.next/cache/**"],
+      "env": ["API_URL"]
     }
   }
 }
